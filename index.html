@@ -26,7 +26,7 @@
   <body>
     <div class="container" id="hero">
       <div class="row">
-        <div class="col-6">
+        <div id="introduction" class="col-md-6">
           <h2>
             Hi 👋, <br />
             My name is
@@ -35,31 +35,81 @@
           <h1>I am front-end developer from Berlin</h1>
           <a href="#" id="contact-me-button">Contact me</a>
         </div>
-        <div class="col-6">
+        <div class="start-image col-md-6">
           <img
-            id="start-image"
             class="img-fluid"
             src="images/start_image.png"
-            alt=""
+            alt="developers'photo"
+            title="It's me"
           />
         </div>
       </div>
     </div>
-    <h4 class="col">My tech stack</h4>
+    <h4 id="stack">My tech stack</h4>
     <p>Technologies I’ve been working with</p>
-    <div class="d-flex justify-content-evenly">
-      <img src="images/vscode-icons_file-type-html.svg" alt="" />
-      <img src="images/vscode-icons_file-type-css.svg" alt="" />
-      <img src="images/vscode-icons_file-type-js-official.svg" alt="" />
-      <img src="images/vscode-icons_file-type-vscode.svg" alt="" />
-      <img src="images/akar-icons_github-fill.svg" alt="" />
-      <img src="images/logos_bootstrap.svg" alt="" />
+
+    <div class="container">
+      <div class="row d-flex justify-content-evenly">
+        <div class="col-sm-2">
+          <img
+            class="img-fluid"
+            src="images/vscode-icons_file-type-html.svg"
+            alt="html-icon"
+            title="HTML"
+          />
+        </div>
+        <div class="col-sm-2">
+          <img
+            class="img-fluid"
+            src="images/vscode-icons_file-type-css.svg"
+            alt="css-icon"
+            title="CSS"
+          />
+        </div>
+        <div class="col-sm-2">
+          <img
+            class="img-fluid"
+            src="images/vscode-icons_file-type-js-official.svg"
+            alt="js-icon"
+            title="JavaScript"
+          />
+        </div>
+        <div class="col-sm-2">
+          <img
+            class="img-fluid"
+            src="images/vscode-icons_file-type-vscode.svg"
+            alt="vs-code-icon"
+            title="VS Code"
+          />
+        </div>
+        <div class="col-sm-2">
+          <img
+            class="img-fluid"
+            src="images/akar-icons_github-fill.svg"
+            alt="github-icon"
+            title="GitHub"
+          />
+        </div>
+        <div class="col-sm-2">
+          <img
+            class="img-fluid"
+            src="images/logos_bootstrap.svg"
+            alt="bootstrap-icon"
+            title="Bootstrap"
+          />
+        </div>
+      </div>
     </div>
     <div class="container">
-      <h4>My latest projects</h4>
+      <h4 id="project-header">My latest projects</h4>
       <div class="row d-flex justify-content-evenly">
-        <div class="col-md-3">
-          <img src="images/weather_app_screen.png" class="img-fluid" alt="" />
+        <div class="col-lg-3">
+          <img
+            src="images/weather_app_screen.png"
+            class="project-preview img-fluid"
+            alt="weather-app-screenshot"
+            title="Weather App"
+          />
           <div class="project-title">Weather App</div>
           <div class="project-description">
             The Weather app written in Vanilla JS, shows the current weather and
@@ -82,8 +132,13 @@
             >
           </div>
         </div>
-        <div class="col-md-3">
-          <img src="images/clock_app_screen.png" class="img-fluid" alt="" />
+        <div class="col-lg-3">
+          <img
+            src="images/clock_app_screen.png"
+            class="project-preview img-fluid"
+            alt="world-clock-app-screenshot"
+            title="World clock"
+          />
           <div class="project-title">World Clock</div>
           <div class="project-description">
             The World Clock app displays the exact time in 3 selected cities.
@@ -106,11 +161,12 @@
             >
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-lg-3">
           <img
             src="images/volleyball_page_screen.png"
-            class="img-fluid"
-            alt=""
+            class="project-preview img-fluid"
+            alt="volleyball-website-screenshot"
+            title="Volleyball Website"
           />
           <div class="project-title">Volleyball Website</div>
           <div class="project-description">
