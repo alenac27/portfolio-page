@@ -2,10 +2,12 @@
   --main-color: #50bfec;
   --font-color-paragraphs: #666666;
   --font-color-headings: #161a25;
+  --box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 body {
   font-family: "Poppins";
+  background: #f5f5f5;
 }
 
 .container {
@@ -27,7 +29,7 @@ h2 {
 h1 {
   margin-bottom: 50px;
 }
-.container {
+#hero {
   margin-right: 0px;
 }
 #contact-me-button {
@@ -38,5 +40,54 @@ h1 {
   line-height: 70px;
   text-decoration: none;
   color: white;
-  font-weight: 700;
+  font-weight: 500;
+}
+
+.col-md-3 {
+  background: white;
+  border-radius: 20px;
+  padding: 20px 20px;
+  box-shadow: var(--box-shadow);
+}
+
+.project-title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 500;
+  color: var(--font-color-headings);
+  margin-top: 40px;
+}
+
+.project-description {
+  font-size: 18px;
+  font-weight: 300;
+  color: var(--font-color-paragraphs);
+  padding: 20px 10px;
+  text-align: center;
+}
+
+.app-links {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.preview-link {
+  text-decoration: none;
+  color: var(--font-color-headings);
+}
+
+.preview-link:hover {
+  text-decoration: underline;
+}
+.code-link {
+  text-decoration: none;
+  color: var(--font-color-headings);
+}
+
+.code-link:hover {
+  text-decoration: underline;
+}
+
+i {
+  color: var(--font-color-headings);
 }
