@@ -1,0 +1,42 @@
+:root {
+  --main-color: #50bfec;
+  --font-color-paragraphs: #666666;
+  --font-color-headings: #161a25;
+}
+
+body {
+  font-family: "Poppins";
+}
+
+.container {
+  margin-top: 100px;
+}
+
+#name {
+  color: var(--main-color);
+  font-weight: 700;
+  font-size: 70px;
+}
+
+h1,
+h2 {
+  font-size: 58px;
+  font-weight: 700;
+}
+
+h1 {
+  margin-bottom: 50px;
+}
+.container {
+  margin-right: 0px;
+}
+#contact-me-button {
+  background: var(--main-color);
+  border-radius: 16px;
+  padding: 20px 30px;
+  font-size: 24px;
+  line-height: 70px;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
