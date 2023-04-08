@@ -10,7 +10,11 @@ body {
 }
 
 .container {
-  margin-top: 100px;
+  margin-top: 50px;
+}
+
+#hero {
+  margin-top: 0;
 }
 
 #name {
