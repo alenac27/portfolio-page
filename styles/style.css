@@ -133,10 +133,6 @@ i .app-links {
 }
 
 @media (max-width: 768px) {
-  .start-image {
-    display: none;
-  }
-
   #hero {
     padding: 20px;
   }
