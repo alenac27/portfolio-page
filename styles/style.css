@@ -9,6 +9,11 @@ body {
   font-family: "Poppins";
 }
 
+.navbar-brand {
+  font-weight: 700;
+  color: var(--main-color);
+}
+
 .container {
   margin-top: 50px;
 }
@@ -123,7 +128,7 @@ p {
   text-decoration: underline;
 }
 
-i {
+i .app-links {
   color: var(--font-color-headings);
 }
 
@@ -174,4 +179,14 @@ i {
   .project-title {
     margin-top: 0;
   }
+}
+
+.social-media-icons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.social-media-icons .fa-brands {
+  color: var(--main-color);
+  font-size: large;
 }
