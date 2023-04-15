@@ -44,7 +44,7 @@ h4 {
   text-align: center;
 }
 
-#stack {
+#heading {
   margin-top: 30px;
   margin-bottom: 15px;
 }
@@ -65,7 +65,7 @@ p {
   max-width: 100%;
 }
 
-#contact-me-button {
+#CTA-button {
   background: var(--main-color);
   border-radius: 16px;
   padding: 20px 30px;
@@ -76,18 +76,24 @@ p {
   font-weight: 500;
 }
 
-#contact-me-button:hover {
+#CTA-button:hover {
   border: 2px solid var(--main-color);
   color: var(--main-color);
   background-color: white;
   transition: all 200ms ease-in-out;
 }
 
-.col-lg-3 {
+.col-lg-3,
+.col-lg-8 {
   background: white;
   border-radius: 20px;
   padding: 20px;
   box-shadow: var(--box-shadow);
+}
+
+.col-lg-8 {
+  display: block;
+  margin: 0 auto;
 }
 
 .project-title {
@@ -98,7 +104,7 @@ p {
   margin-top: 40px;
 }
 
-.project-description {
+.description-text {
   font-size: 18px;
   font-weight: 300;
   color: var(--font-color-paragraphs);
@@ -154,13 +160,18 @@ i .app-links {
     font-size: 28px;
   }
 
-  #contact-me-button {
+  #CTA-button {
     font-size: 18px;
     padding: 10px 15px;
   }
 
   .col-sm-2 {
     width: 60px;
+  }
+
+  .col-md-6 {
+    margin-top: 20px;
+    padding: 0px;
   }
 }
 
@@ -179,10 +190,34 @@ i .app-links {
 
 .social-media-icons {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .social-media-icons .fa-brands {
   color: var(--main-color);
-  font-size: large;
+}
+
+.social-media-icons .fa-brands:hover {
+  color: var(--font-color-paragraphs);
+}
+
+.footer-icon {
+  margin: 0 20px;
+}
+
+.description-footer {
+  display: block;
+  text-align: center;
+  color: var(--font-color-paragraphs);
+  font-size: 14px;
+  margin: 10px;
+}
+
+.github-link {
+  text-decoration: none;
+  color: var(--main-color);
+}
+
+.github-link:hover {
+  text-decoration: underline;
 }
