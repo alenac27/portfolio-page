@@ -188,6 +188,10 @@ i .app-links {
   }
 }
 
+hr {
+  margin: 50px 20px 20px 20px;
+}
+
 .social-media-icons {
   display: flex;
   justify-content: center;
