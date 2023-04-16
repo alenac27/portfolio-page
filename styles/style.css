@@ -25,7 +25,6 @@ body {
 .highlighted-information {
   color: var(--main-color);
   font-weight: 700;
-  font-size: 70px;
 }
 
 h1,
@@ -156,7 +155,7 @@ i .app-links {
     font-size: 28px;
   }
 
-  #name {
+  #highlighted-information {
     font-size: 28px;
   }
 
