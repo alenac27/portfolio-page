@@ -22,7 +22,7 @@ body {
   margin-top: 0;
 }
 
-#highlighted-information {
+.highlighted-information {
   color: var(--main-color);
   font-weight: 700;
   font-size: 70px;
@@ -224,4 +224,11 @@ hr {
 
 .github-link:hover {
   text-decoration: underline;
+}
+
+#contact-email,
+#contact-title {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
 }
